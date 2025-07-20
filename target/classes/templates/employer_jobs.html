@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>My Jobs</title></head>
+<body>
+<h2>My Posted Jobs</h2>
+<table>
+    <tr><th>Title</th><th>Company</th><th>Location</th></tr>
+    <tr th:each="job : ${jobs}">
+        <td th:text="${job.title}"></td>
+        <td th:text="${job.company}"></td>
+        <td th:text="${job.location}"></td>
+    </tr>
+</table>
+<a th:href="@{/employer/post}">Post New Job</a>
+<a th:href="@{/}">Home</a>
+</body>
+</html>

@@ -1,0 +1,12 @@
+com\jobportal\config\SecurityConfig.class
+com\jobportal\model\User.class
+com\jobportal\repository\UserRepository.class
+com\jobportal\repository\JobRepository.class
+com\jobportal\controller\JobController.class
+com\jobportal\model\Application.class
+com\jobportal\controller\AuthController.class
+com\jobportal\model\Job.class
+com\jobportal\repository\ApplicationRepository.class
+com\jobportal\JobPortalApplication.class
+com\jobportal\service\UserService.class
+com\jobportal\controller\ApplicationController.class
